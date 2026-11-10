@@ -1,0 +1,14 @@
+{
+  "name": "universal-omnichannel-alert-dispatcher",
+  "version": "1.0.0",
+  "description": "The Universal Omnichannel Notification & Alert Dispatcher: High-reliability priority queue alert dispatcher for Telegram, Discord, and Slack with backoff retries",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
